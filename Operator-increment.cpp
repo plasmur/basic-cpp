@@ -26,5 +26,5 @@ int main()
     // nilai y akan berubah setelah operasi b = y++
     cout << " \ny = " << y;
 
-    ~return 0;
+    return 0;
 }
