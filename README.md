@@ -16,11 +16,11 @@ Jadi, pada kode di atas, kita mengimpor library iostream dan menggunakan namespa
 
 endl adalah manipulator yang digunakan dalam bahasa pemrograman C++ untuk memindahkan kursor ke baris baru dan mengosongkan buffer output. Ketika digunakan dalam kode, endl akan membuat baris baru setelah teks atau data yang terakhir ditampilkan.
 
-#### 4 penjelasan tentang operator
+### 4 penjelasan tentang operator
 
 Dalam bahasa pemrograman, operator = digunakan untuk memeriksa apakah dua nilai sama. Operator < digunakan untuk memeriksa apakah satu nilai kurang dari nilai Iainnya. sedangkan Operator > digunakan untuk memeriksa apakah satu nilai lebih dari nilai Iainnya.
 
-##### 5 Penjelasan tentang logika operator
+### 5 Penjelasan tentang logika operator
 
 Dalam bahasa pemrograman C++, operator && dan II digunakan untuk melakukan operasi logika boolean atau "AND" dan "OR", masing-masing.
 
@@ -28,7 +28,7 @@ Operator && (AND) digunakan untuk memeriksa apakah kedua kondisi yang diberikan 
 
 Operator I I (OR) digunakan untuk memeriksa apakah salah satu atau kedua kondisi yang diberikan merupakan true. Jika minimal satu kondisinya true, maka hasilnya akan menjadi true. Namun, jika kedua kondisinya false, maka hasilnya akan menjadi false.
 
-###### 6 perbeddan antara pre Increments dengan post Increments
+### 6 perbeddan antara pre Increments dengan post Increments
 
 berikut ini adalah perbedaan antara pre-increment dan post-Increment
 
@@ -38,6 +38,9 @@ post-increment: Dalam post-increment, nilai variabel ditingkatkan setelah diguna
 
 Dalam program di atas, kita menggunakan pre-increment pada variabel x dan post-increment pada variabel y, dan kemudian mencetak nilai variabel-a dan variabel-b serta nilai variabel-x dan variabel-y setelah operasi increment dilakukan.
 
+### 7 pengertian dari pustaka include algorithm 
+# include <algorithm>
+Pustaka ini menyediakan berbagai algoritma untuk memanipulasi urutan elemen, seperti pengurutan, pencarian, dan modifikasi. Pada palidnrome, pustaka tersebut digunakan untuk menghapus spasi dari kalimat yang dimasukkan
 
 
 
