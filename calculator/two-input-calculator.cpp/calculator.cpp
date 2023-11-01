@@ -9,14 +9,18 @@ int main()
     int firstNumber, secondNumber;
     char Operator;
 
+    cout << " Enter and operator(+,-,*,/)'q' to quit ";
+    cin >> Operator;
+    if (Operator == 'q')
+    {
+      break;
+    }
+
     cout << " Enter The first Number: ";
     cin >> firstNumber;
 
     cout << " Enter The second Number: ";
     cin >> secondNumber;
-
-    cout << " Enter and operator(+,-,*,/)'q' to quit ";
-    cin >> Operator;
 
     int result;
     if (Operator == '+')
@@ -45,11 +49,6 @@ int main()
       {
         cout << " Division by zero is not allowed." << endl;
       }
-    }
-
-    else if (Operator == 'q')
-    {
-      break;
     }
 
     else
